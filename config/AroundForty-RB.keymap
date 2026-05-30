@@ -54,6 +54,48 @@
                 <&macro_release>,
                 <&kp LCTRL>;
         };
+
+        win_r: win_r {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp R>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "WIN_R";
+        };
+
+        win_shift_s: win_shift_s {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp S>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT &kp LEFT_WIN>;
+
+            label = "WIN_SHIFT_S";
+        };
+
+        alt_f4: alt_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp F4>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "ALT_F4";
+        };
     };
 
     behaviors {
