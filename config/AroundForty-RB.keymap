@@ -184,10 +184,10 @@
 
         Num_Scroll {
             bindings = <
-&kp EQUAL     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3              &trans    &trans    &trans        &trans     &trans
-&kp ASTERISK  &kp PLUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6              &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&kp SLASH     &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD  &kp HOME  &kp FSLH  &kp N1        &kp END    &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans    &trans    &trans        &trans     &trans
+&kp EQUAL     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3              &trans    &alt_f4        &trans        &trans     &trans
+&kp ASTERISK  &kp PLUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6              &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&kp SLASH     &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans    &trans         &trans        &trans     &trans
             >;
         };
 
