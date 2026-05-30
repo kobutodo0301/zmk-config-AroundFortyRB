@@ -83,10 +83,10 @@
         Win-Base {
             display-name = "Win-Base";
             bindings = <
-&kp Q             &kp W     &kp E     &kp R                 &kp T                          &kp Y        &kp U      &kp I          &kp O            &kp P
-&kp A             &kp S     &kp D     &lt 7 F               &kp G                          &kp H        &kp J      &kp K          &kp L            &lt 7 MINUS
-&mt LEFT_SHIFT Z  &kp X     &kp C     &kp V                 &kp B        &kp LANG2         &kp N        &kp M      &kp COMMA      &kp DOT          &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LGUI  &kp LALT  &mt LSHFT LANGUAGE_1  &lt 2 SPACE  &lt 6 LANGUAGE_2  &lt 6 ENTER  &kp LANG1  &kp BACKSPACE  &lt 8 RIGHT_GUI  &kp DEL
+&kp Q             &kp W     &kp E     &kp R           &kp T                 &kp Y        &kp U      &kp I          &kp O            &kp P
+&kp A             &kp S     &kp D     &lt 7 F         &kp G                 &kp H        &kp J      &kp K          &kp L            &lt 7 MINUS
+&mt LEFT_SHIFT Z  &kp X     &kp C     &kp V           &kp B      &kp LANG2  &kp N        &kp M      &kp COMMA      &kp DOT          &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LGUI  &kp LALT  &lt 2 NUMBER_2  &kp SPACE  &kp TAB    &lt 6 ENTER  &kp LANG1  &kp BACKSPACE  &lt 8 RIGHT_GUI  &kp DEL
             >;
         };
 
@@ -103,10 +103,10 @@
         Win-Fnc {
             display-name = "Win-Fnc";
             bindings = <
-&kp LC(A)       &kp LC(X)     &kp LC(C)    &kp LC(V)  &kp LC(F)          &kp LESS_THAN         &kp GREATER_THAN       &kp CARET        &kp PERCENT    &kp DOLLAR
-&kp TAB         &kp LEFT_ALT  &kp LS(TAB)  &mkp MB1   &mkp MB2           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp AMPERSAND  &kp DOUBLE_QUOTES
-&kp LEFT_SHIFT  &trans        &trans       &trans     &mkp MB3   &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION   &kp SINGLE_QUOTE
-&kp LCTRL       &trans        &trans       &trans     &trans     &trans  &trans                &trans                 &kp BACKSPACE    &kp ENTER      &kp HASH
+&kp LC(EXCLAMATION)  &kp LC(AT_SIGN)  &kp LC(HASH)  &kp LC(DOLLAR)  &kp LC(PERCENT)          &kp CARET             &kp AMPERSAND          &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TAB              &kp LEFT_ALT     &kp LS(TAB)   &mkp MB1        &mkp MB2                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp AMPERSAND         &kp DOUBLE_QUOTES
+&kp LEFT_SHIFT       &trans           &trans        &trans          &mkp MB3         &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION          &kp SINGLE_QUOTE
+&kp LCTRL            &trans           &trans        &trans          &trans           &trans  &trans                &trans                 &kp BACKSPACE    &kp ENTER             &kp HASH
             >;
         };
 
