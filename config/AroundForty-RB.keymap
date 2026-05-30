@@ -139,10 +139,10 @@
         Win-Base {
             display-name = "Win-Base";
             bindings = <
-&kp Q             &kp W     &kp E     &kp R           &kp T                 &kp Y        &kp U      &kp I          &kp O            &kp P
-&kp A             &kp S     &kp D     &lt 7 F         &kp G                 &kp H        &kp J      &kp K          &kp L            &lt 7 MINUS
-&mt LEFT_SHIFT Z  &kp X     &kp C     &kp V           &kp B      &kp LANG2  &kp N        &kp M      &kp COMMA      &kp DOT          &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LGUI  &kp LALT  &lt 2 NUMBER_2  &kp SPACE  &kp TAB    &lt 6 ENTER  &kp LANG1  &kp BACKSPACE  &lt 8 RIGHT_GUI  &kp DEL
+&kp Q             &kp W     &kp E     &kp R           &kp T                 &kp Y        &kp U      &kp I            &kp O            &kp P
+&kp A             &kp S     &kp D     &lt 7 F         &kp G                 &kp H        &kp J      &kp K            &kp L            &lt 7 MINUS
+&mt LEFT_SHIFT Z  &kp X     &kp C     &kp V           &kp B      &kp LANG2  &kp N        &kp M      &kp COMMA        &kp DOT          &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LGUI  &kp LALT  &lt 2 NUMBER_2  &kp SPACE  &kp TAB    &lt 6 ENTER  &kp LANG1  &lt 4 BACKSPACE  &lt 8 RIGHT_GUI  &kp DEL
             >;
         };
 
@@ -179,10 +179,10 @@
         Win-Common {
             display-name = "Win-Common";
             bindings = <
-&kp ESC             &trans  &kp F1  &kp F2  &kp F3          &trans  &trans  &trans  &trans  &trans
-&kp LS(LA(ESCAPE))  &trans  &kp F4  &kp F5  &kp F6          &trans  &trans  &trans  &trans  &trans
-&trans              &trans  &kp F7  &kp F8  &kp F9  &trans  &trans  &trans  &trans  &trans  &trans
-&trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC             &kp LC(NUMBER_0)  &kp F1  &kp F2  &kp F3          &trans  &trans  &trans  &trans  &trans
+&kp LS(LA(ESCAPE))  &trans            &kp F4  &kp F5  &kp F6          &trans  &trans  &trans  &trans  &trans
+&trans              &trans            &kp F7  &kp F8  &kp F9  &trans  &pa     &syain  &trans  &trans  &trans
+&trans              &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -198,10 +198,10 @@
 
         Num_Scroll {
             bindings = <
-&kp EQUAL     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3              &trans    &alt_f4        &trans        &trans     &trans
-&kp ASTERISK  &kp PLUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6              &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
-&kp SLASH     &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans    &trans         &trans        &trans     &trans
+&kp EQUAL     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3              &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(UP)    &kp LG(RIGHT)  &trans
+&kp ASTERISK  &kp PLUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6              &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT      &alt_f4
+&kp SLASH     &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD  &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP   &kp END        &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans        &trans         &trans        &trans         &trans
             >;
         };
 
