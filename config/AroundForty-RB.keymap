@@ -145,10 +145,10 @@
         Win-Fnc {
             display-name = "Win-Fnc";
             bindings = <
-&kp LC(EXCLAMATION)  &kp LC(AT_SIGN)  &kp LC(HASH)  &kp LC(DOLLAR)  &kp LC(PERCENT)          &kp CARET  &kp AMPERSAND      &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TAB              &kp LEFT_ALT     &kp LS(TAB)   &mkp MB1        &mkp MB2                 &kp EQUAL  &kp SINGLE_QUOTE   &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&kp LEFT_SHIFT       &trans           &trans        &trans          &mkp MB3         &trans  &kp PLUS   &kp DOUBLE_QUOTES  &trans         &kp LEFT_BRACE        &kp RIGHT_BRACE
-&kp LCTRL            &trans           &trans        &trans          &trans           &trans  &trans     &trans             &kp BACKSPACE  &kp LESS_THAN         &kp GREATER_THAN
+&kp LC(EXCLAMATION)  &kp LC(AT_SIGN)  &kp LC(HASH)   &kp LC(DOLLAR)  &kp LC(PERCENT)          &kp CARET  &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp QUESTION         &trans           &kp LS(GRAVE)  &kp SEMICOLON   &kp MINUS                &kp EQUAL  &kp SINGLE_QUOTE   &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&trans               &trans           &kp TILDE      &kp COLON       &kp UNDERSCORE   &trans  &kp PLUS   &kp DOUBLE_QUOTES  &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE
+&trans               &trans           &trans         &trans          &trans           &trans  &win_r     &trans             &win_shift_s  &kp LESS_THAN         &kp GREATER_THAN
             >;
         };
 
