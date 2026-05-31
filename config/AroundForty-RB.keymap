@@ -140,7 +140,7 @@
             display-name = "Win-Base";
             bindings = <
 &kp Q             &kp W     &kp E     &kp R           &kp T                 &kp Y        &kp U      &kp I            &kp O            &kp P
-&kp A             &kp S     &kp D     &lt 7 F         &kp G                 &kp H        &kp J      &kp K            &kp L            &lt 7 MINUS
+&kp A             &kp S     &kp D     &lt 10 F        &lt 7 G               &kp H        &kp J      &kp K            &kp L            &lt 7 MINUS
 &mt LEFT_SHIFT Z  &kp X     &kp C     &kp V           &kp B      &kp LANG2  &kp N        &kp M      &kp COMMA        &kp DOT          &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LGUI  &kp LALT  &lt 2 NUMBER_2  &kp SPACE  &kp TAB    &lt 6 ENTER  &kp LANG1  &lt 4 BACKSPACE  &lt 8 RIGHT_GUI  &kp DEL
             >;
@@ -231,6 +231,15 @@
 &trans  &trans  &trans  &trans  &trans          &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+            >;
+        };
+
+        mk {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
             >;
         };
     };
